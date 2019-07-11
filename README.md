@@ -1,6 +1,12 @@
-# Strategy Pattern
+---
+title: Strategy Pattern
+date: '2019-07-11T22:34:00.000Z'
+tags: 'Object Orientated Programming'
+---
 
-You can view the example code at my [github](https://github.com/gerbilsinspace/strategy-pattern)
+I'm currently working through Head First Design Patterns by Eric Freeman and Elisabeth Robson. It's good, and pretty challenging to translate to JS. The section on strategy pattern can be found in the introductory chapter: Welcome to Design Patterns.
+
+I attempted to follow along using JS, although the examples are written in Java. You can find the result at my [github](https://github.com/gerbilsinspace/strategy-pattern).
 
 The Strategy pattern lets you decouple functionality from an object. Doing so lets you reuse an object without gaining unwanted functionality. If you wanted to make a rubber duck from a duck object, you wouldn't want the rubber duck to fly. Passing in a custom fly method during creation would prevent this.
 
